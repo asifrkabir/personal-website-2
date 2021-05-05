@@ -1,7 +1,231 @@
-*{
+* {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    margin: 20px 0 50px 0;
+    width: 95%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: right;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #3c3c3c;
+    transition: all 0.4s ease-in-out;
+}
+
+nav ul li:hover a{
+    color: tomato;
+}
+
+section{
+    height: 800px;
+    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+
+.third-width {
+    width: 25%;
+    float: left;
+    margin: 0 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px lightgray;
+    transition: all 0.7s ease-in-out; 
+}
+
+.third-width:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgb(186, 232, 253);
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navy-highlight {
+    color: #363958;
+}
+
+.orange-highlight {
+    color: #FF8367;
+}
+
+.blue-highlight {
+    color: rgb(92, 162, 241);
+}
+
+.half-width p {
+    color: #3E3E3E;
+    margin-bottom: 20px;
+    margin: 20px 0;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.third-width img {
+    width: 100%;
+    padding: 20px;
+}
+
+.orange-btn{
+    color: #fff;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.blue-btn{
+    color: #fff;
+    background-image: linear-gradient(45deg, rgb(92, 162, 241), cyan);
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.intro p{
+    width: 60%;
+}
+
+.about p{
+    width: 80%;
+}
+
+.work-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-width p{
+    padding: 10px 20px 20px 20px;
+}
+
+.third-width h3{
+    padding: 10px 20px;
+}
+
+.work{
+    background-color: #ecf4ff;
+}
+
+.work h2{
+    text-align: center;
+    padding-top: 80px;
+}
+
+.work h3{
+    font-family: 'Roboto', sans-serif;
+    color: #363958;
+    font-size: 20px;
+}
+
+.desk-setup{
+    background-image: url(../images/desk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 300px 50px;
+    display: block;
+}
+
+.desk-setup p{
+    margin: 20px 0;
+}
+
+.inquiry-box{
+    background-image: url("../images/shapes/inquiry-bg.png");
+    height: 225px;
+    width: 906px;
+    margin: 0 auto;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+.inquiry-box h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+.inquiry {
+    height: 300px;
+    padding: 60px 0;
+    margin-top: 20px;
+}
+
+.contacts{
+    height: 150px;
+    padding-bottom: 0;
+}
+
+.contacts{
+    flex-direction: column;
+}
+
+.contacts h4{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+
+.contacts h2{
+    font-size: 30px;
+}
+
+.contacts img{
+    height: 30px;
+    margin: 0 10px;
 }
